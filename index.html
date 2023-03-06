@@ -735,9 +735,24 @@
                     <div class="left-contact">
                         <h4>Contact me here</h4>
                         <p>
+                            <!-- If you have any inquiries, collaboration proposals or simply want to say hello, feel free to
+                            get in touch with me. You can contact me through the form or via email / phone. <br>
+                            Thank you for taking time to visit my portofolio! -->
                             If you have any inquiries, collaboration proposals or simply want to say hello, feel free to
                             get in touch with me. You can contact me through the form or via email / phone. <br>
-                            Thank you for taking time to visit my portofolio!
+                            Alternatively, you can also add me straight to your contacts for future reference. <br>
+                            <br>
+                            <button id="save-btn" class="main-btn">
+                                <span class="btn-text">Add to Contacts</span>
+                                <span class="btn-icon"><i class="fas fa-id-card"></i></span>
+                            </button>
+                        <div id="qrcode" style="display:none">
+                            <img height="250" width="199"
+                                src="/img/Georgios_FeidakisQR.png">
+                        </div>
+                        <br>
+
+                        Thank you for taking the time to visit my portfolio!
                         </p>
                         <div class="contact-info">
                             <div class="contact-item">
@@ -754,7 +769,7 @@
                                     <i class="fas fa-envelope"></i>
                                     <span>Email</span>
                                 </div>
-                                <p >
+                                <p>
                                     <span>: gfeidakis@outlook.com</span>
                                 </p>
                             </div>
@@ -801,35 +816,38 @@
                                 <a href="https://github.com/geofeid" target="_blank">
                                     <i class="fab fa-github"></i>
                                 </a>
-                                
+
                             </div>
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="https://formsubmit.co/465aea2b0797d1f72e6f3b5995f245eb" method="POST" class="contact-form">
+                        <form action="https://formsubmit.co/465aea2b0797d1f72e6f3b5995f245eb" method="POST"
+                            class="contact-form">
                             <div class="input-control i-c-2">
                                 <input type="hidden" name="_next" value="https://geofeid.github.io/myportofolio/">
                                 <input type="hidden" name="_subject" value="New submission!">
                                 <input type="text" name="_honey" style="display:none">
                                 <input type="hidden" name="_template" value="table">
-                                <input type="hidden" name="_autoresponse" value="Thank you for your message i will reach out to you shortly">
-                              <input type="text" name="name" required placeholder="YOUR NAME">
-                              <input type="email" name="email" required placeholder="YOUR EMAIL">
-                              
+                                <input type="hidden" name="_autoresponse"
+                                    value="Thank you for your message i will reach out to you shortly">
+                                <input type="text" name="name" required placeholder="YOUR NAME">
+                                <input type="email" name="email" required placeholder="YOUR EMAIL">
+
                             </div>
                             <div class="input-control">
-                              <input type="text" name="subject" required placeholder="ENTER SUBJECT">
+                                <input type="text" name="subject" required placeholder="ENTER SUBJECT">
                             </div>
                             <div class="input-control">
-                              <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea name="message" id="" cols="15" rows="8"
+                                    placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
-                              <button type="submit" class="main-btn">
-                                <span class="btn-text">Send Message</span>
-                                <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
-                              </button>
+                                <button type="submit" class="main-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                                </button>
                             </div>
-                          </form>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -856,7 +874,9 @@
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
     <script src="app.js"></script>
+
 </body>
 
 </html>
