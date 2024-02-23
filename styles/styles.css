@@ -1109,6 +1109,12 @@ grid-template-columns: repeat(1, 1fr);
   }
 }
 
+@media screen and (min-width: 1600px){
+  .header-content .left-header .image img {
+    height:60vh
+  }
+}
+
 /* @media screen and (max-width: 700px) {
   .timeline-item {
     max-width: 70%;
