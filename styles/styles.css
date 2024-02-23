@@ -331,16 +331,16 @@ section {
   width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .b {
-  width: 80%;
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .angular {
-  width: 65%;
+  width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
   width: 30%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 20%;
+  width: 40%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .c {
   width: 35%;
@@ -352,7 +352,7 @@ section {
   width: 65%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .git {
-  width: 65%;
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .npm {
   width: 60%;
@@ -364,17 +364,29 @@ section {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .azure {
-  width: 30%;
+  width: 45%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .rest {
   width: 40%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .figma {
-  width: 30%;
+  width: 40%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .kentico {
   width: 50%;
 }
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .tailwind {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .scss {
+  width: 50%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .less {
+  width: 50%;
+}
+
 
 
 .stat-title {
