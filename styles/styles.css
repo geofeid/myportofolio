@@ -896,7 +896,38 @@ grid-template-columns: repeat(1, 1fr);
     text-align: center;
     padding-top: 3rem;
   }
+
+  .theme-btn {
+    top: 2%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .controls {
+    top: auto;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: var(--color-grey-5);
+  }
+  .controls .control {
+    margin: 1rem 0.3rem;
+  }
+
+
 }
+
+@media screen and (max-width: 750px) {
+.theme-btn {
+  width: 50px;
+  height: 50px;
+}
+}
+
+
 @media screen and (max-width: 700px) {
   .container {
     padding: 7rem 3rem;
@@ -922,19 +953,7 @@ grid-template-columns: repeat(1, 1fr);
     font-size: 4rem;
   }
 
-  .controls {
-    top: auto;
-    bottom: 0;
-    flex-direction: row;
-    justify-content: center;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    background-color: var(--color-grey-5);
-  }
-  .controls .control {
-    margin: 1rem 0.3rem;
-  }
+ 
 }
 
 @media screen and (max-width: 660px) {
@@ -964,11 +983,7 @@ grid-template-columns: repeat(1, 1fr);
     padding: 0 !important;
   }
 
-  .theme-btn {
-    width: 50px;
-    height: 50px;
-  }
-
+  
   .header-content {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
