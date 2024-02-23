@@ -792,7 +792,10 @@ section {
 
 @media screen and (max-width: 1281px) {
 
-  
+  .timeline {
+   
+    grid-template-columns: repeat(1, 1fr);
+  }
   .blogs {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
@@ -895,10 +898,7 @@ grid-template-columns: repeat(1, 1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .timeline {
-   
-    grid-template-columns: repeat(1, 1fr);
-  }
+  
 
   .main-title h2 {
     font-size: 3rem;
